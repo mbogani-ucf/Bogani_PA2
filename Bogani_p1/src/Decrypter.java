@@ -3,8 +3,9 @@ public class Decrypter {
        String decrypterString = "";       
        for(int j = 0 ; j < code.length() ; ++j ) {          
            int decryptedigit = ((Integer.parseInt(code.charAt(j)+"")) - 7);           
-           if (decryptedigit < 0)
-           decryptedigit += 10;          
+           if (decryptedigit < 0){
+           decryptedigit += 10;
+           }
            decrypterString += decryptedigit;
        }      
        String digit1 = decrypterString.charAt(2)+"";
