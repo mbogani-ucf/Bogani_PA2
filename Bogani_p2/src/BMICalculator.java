@@ -1,3 +1,27 @@
+/*
+ Main calls BMI calculator:
+ >BMI calculator calls readUserdata
+ >readUserData the calls both
+ >readUnitType & readMeasurementData
+ >The user is then prompted to enter
+ text indicating the measurement type
+ >The program only detects either type
+ >Depending on the type the user will
+ be asked to enter either metric or
+ Imperial units of measurement for both
+ Height and Weight.
+ >calculateBmi gets called and uses the 
+ input data.
+ >calculateBmi detects unit type and 
+ calculates accordingly.
+ >getBmi gets called to print BMI
+ >displayBmi gets called to display 
+ user's BMI category.
+ >Finally displayBmi gets called to 
+ display all BMI categories.
+ * 
+ */
+
 import java.util.Scanner;
 
 public class BMICalculator{
